@@ -24,6 +24,7 @@
     "@types/react-dom": "^18",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "^9.1.0",
@@ -41,5 +42,10 @@
       "pnpm lint",
       "pnpm prettier"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
